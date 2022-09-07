@@ -1,0 +1,40 @@
+.navContainer {
+  display: flex;
+  background-color: rgb(34, 97, 159);
+  height: 30px;
+  justify-content: space-between;
+  padding: 10px;
+  align-items: center;
+}
+
+.navIcon {
+  color: rgb(246, 5, 41);
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+
+.navContainer ul {
+  list-style: none;
+}
+.navContainer ul li {
+  display: inline-block;
+  margin-right: 5px;
+}
+
+.navContainer ul li:not(:last-child) {
+  margin-right: 10px;
+}
+
+.navContainer ul li a {
+  text-decoration: none;
+}
+
+.navContainer ul li a:link,
+.navContainer ul li a:visited {
+  color: #fff;
+}
+
+.navContainer ul li a:hover,
+.navContainer ul li a:active {
+  color: pink;
+}

@@ -1,0 +1,12 @@
+.header {
+  height: 70vh;
+  /* background-color: aqua; */
+  display: flex;
+  flex-direction: column;
+}
+
+.navContainer {
+  display: flex;
+
+  margin-bottom: 50px;
+}

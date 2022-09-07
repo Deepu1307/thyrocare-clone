@@ -1,0 +1,18 @@
+.alert {
+  height: 30px;
+  background-color: #ccc;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 8px;
+  gap: 10px;
+}
+
+.alertText span:first-child {
+  color: red;
+}
+
+.alertIcon {
+  display: flex;
+  align-items: center;
+}
